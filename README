@@ -1,0 +1,13 @@
+1.FILES
+black_list_sorted.php for sorted black ip list
+config.php for configuration of the firewall
+white_list_sorted.php for sorted white ip list
+xgfw.php the main firewall file must be included by the php script which you wanna to use this firewall
+xgfw_admin.php some administrator functions
+xgfw_func.php some functions to be used widely
+xgfw_test.php a simple file to test one ip show that whether it is blocked
+2.Use eg.
+such as forum.php
+add:
+ include_once('./xgfw/xgfw.php') ;
+at the first line of your php script
